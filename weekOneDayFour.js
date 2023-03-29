@@ -2,24 +2,24 @@
   // Print this term to the console as a string.
 //  declare
 
-const answer = "declare"
-console.log(answer)
+// const answer = "declare"
+// console.log(answer)
 
-// What is the technical term used to call or execute a function in JavaScript? 
-// Print this term to the console as a string.
+// // What is the technical term used to call or execute a function in JavaScript? 
+// // Print this term to the console as a string.
 
-// Invoke 
+// // Invoke 
 
-const sumAnswer = "invoke"
-console.log(sumAnswer)
+// const sumAnswer = "invoke"
+// console.log(sumAnswer)
 
-// Create an object called student, including 3 properties with their values.
+// // Create an object called student, including 3 properties with their values.
 
-const student = { 
-    hairType: "curly",
-    eyeColor: "brown",
-    size: "large"
-}
+// const student = { 
+//     hairType: "curly",
+//     eyeColor: "brown",
+//     size: "large"
+// }
 
 // Create a function that removes the first element of the array below and 
 // adds “kiwi” to the end of the array.
@@ -33,7 +33,10 @@ let favoriteFruits = [
 ]
 
 function removeFruit() {
-
+ for (let i = 0; i < favoriteFruits.length; i--) {
+  const element = favoriteFruits[0];
+  
+ }
 }
 
-console.log()
+console.log(removeFruit)
